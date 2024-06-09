@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Try again to test build 1";
+    return "Try again to test build 2";
 });
