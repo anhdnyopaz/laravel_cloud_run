@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY composer.json composer.lock /app/
 
-RUN composer --optimize-autoloader --no-scripts --prefer-dist
+RUN composer install --optimize-autoloader --no-scripts --prefer-dist
 
 RUN ./vendor/bin/rr get-binary
 
