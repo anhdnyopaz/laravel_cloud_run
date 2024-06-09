@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[\App\Http\Controllers\TestController::class,'test']);
+Route::get('push-queue', [\App\Http\Controllers\TestController::class,'pushQueue']);
+Route::get('get-queue', [\App\Http\Controllers\TestController::class,'listQueue']);
