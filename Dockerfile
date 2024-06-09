@@ -11,6 +11,3 @@ COPY . /app
 
 RUN composer dump-autoload
 
-RUN php artisan migrate
-
-
