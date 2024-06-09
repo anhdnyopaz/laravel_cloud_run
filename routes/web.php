@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return "Try again to test build 3";
-});
+Route::get('/',[\App\Http\Controllers\TestController::class,'test']);
