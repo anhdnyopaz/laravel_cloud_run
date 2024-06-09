@@ -54,6 +54,3 @@ tags:
   - gcp-cloud-build-deploy-cloud-run
   - gcp-cloud-build-deploy-cloud-run-managed
   - laravel-cloud-run
-availableSecrets:
-    secretManager:
-        - versionName: projects/xxxx/secrets/cloud-run-source-deploy/versions/latest
