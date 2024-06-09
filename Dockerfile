@@ -9,3 +9,5 @@ RUN ./vendor/bin/rr get-binary
 
 COPY . /app
 
+RUN composer dump-autoload
+
