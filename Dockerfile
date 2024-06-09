@@ -1,6 +1,7 @@
-FROM infoecnet/php8.1-laravel-alpine
+FROM infoecnet/php8.1-laravel-alpine:v1
 
-COPY . .
+COPY . /app
+WORKDIR /app
 
 RUN composer install
 
